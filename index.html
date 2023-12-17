@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <header>
+  <nav id="desktop-nav">
+    <div class="logo">Sofie.design</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#hjem">Hjem</a></li>
+            <li><a href="#om-mig">Om mig</a></li>
+            <li><a href="#projekter">Projekter</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Sofie.design</div>
+    <div class ="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="menu-links">
+            <li><a href="#profile" onclick="toggleMenu()">Hjem</a></li>
+            <li><a href="#om-mig" onclick="toggleMenu()">Om mig</a></li>
+            <li><a href="#projekter" onclick="toggleMenu()">Projekter</a></li>
+            <li><a href="#kontakt" onclick="toggleMenu()">Kontakt</a></li>
+    </ul>
+    </div>
+  </nav>
+</header>
+<main>
+<section id="profile">
+  <div class="section__pic-container">
+    <img src="assets/assets/picture.png" alt="Sofie profil billede">
+  </div>
+  <div class="section__text">
+    <h1 class="title">Webdesigner og Front-End udvikler</h1>
+    <p class="section__text__p1">Hej, jeg hedder Sofie Crillesen. Jeg er passioneret webdesigner og front-end udvikler, med bopæl i Danmark.</p>
+  <div id="socials-container">
+    <img src="assets/assets/linkedin.png" alt="Linkedin profil" class="icons"
+    onclick="location.href='https://www.linkedin.com/in/sofie-crillesen-501ba02a4/'">
+    <img src="assets/assets/github.png" alt="Github profil" class="icons"
+    onclick="location.href='https://github.com/SofieCrille'">
+  </div>
+  <div class="section__skills-icons">
+    <img src="assets/assets/css-3.png" alt="css" class="icon">
+    <img src="assets/assets/html-5.png" alt="html" class="icon">
+    <img src="assets/assets/photoshop.png" alt="ps" class="icon">
+    <img src="assets/assets/illustrator.png" alt="ai" class="icon">
+    <img src="assets/assets/indesign.png" alt="id" class="icon">
+    <img src="assets/assets/xd.png" alt="xd" class="icon">
+  </div>
+</div>
+</section>
+  <section id="om-mig">
+    <div class="section__pic-container">
+      <img src="assets/assets/aboutphoto0.png" alt="profil billede 2" class="Om mig billede">
+    </div>
+    <div class="section__text">
+    <h5 class="title2">Om mig</h5>
+          <p class="section__text__p1">Hej! Mit navn er Sofie, og jeg er passioneret omkring at skabe digitale oplevelser, der ikke kun er æstetisk tiltalende, men også funktionelle og brugervenlige. Som webdesigner og front-end udvikler stræber jeg efter at bringe visioner til live og skabe hjemmesider, der ikke blot imødekommer, men overstiger forventninger. Mit arbejde foregår i agile metoder, hvilket gør mig i stand til at tilpasse mig dynamiske projektforløb og levere kvalitetsløsninger inden for tidsrammerne. Stærke kommunikationsevner gør mig i stand til at formidle komplekse ideer klart og samarbejde effektivt med både udviklingsteams og interessenter.</p>
+    </div>
+    <img src="./assets/assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projekter'">
+  </section>
+  
+    <section id="projekter">
+    <div class="section__pic-container2">
+      <img src="assets/assets/aboutphoto.png" alt="projekt 1" class="projekt-img">
+    </div>
+    <div class="section__text">
+    <h5 class="title2">Projekter</h5>
+    <h2 class="project-title">Billesgade Rooms - B&B booking</h2>
+    <p class="section__text__p1">Billesgade Rooms er en hjemmeside der giver brugere mulighed for at booke et værelse gennem deres hjemmeside. Her finder man både oplevelser i odense, detaljer om værelser, galleri og kontaktoplysninger.</p>
+        <div class="link-container2"> 
+          <a href="https://xd.adobe.com/view/0d0d9095-2a9f-4e83-b38d-c7a57eccd9f2-585e/" class="link-text">Live Demo <img src="./assets/assets/external-link.png" alt="eksternt-link" class="icons"> </a>
+         </div>
+      </div>
+  <article id="projekter2">
+  <div class="section__pic-container2">
+    <img src="assets/assets/aboutphoto2.png" alt="projekt 2" class="projekt-img2">
+  </div>
+  <div class="section__text">
+  <h2 class="project-title">RideSmart - lån af Smart Cars</h2>
+  <p class="section__text__p1">RideSmart er en hjemmeside det tilhører en App, hvis formål er at udleje biler. Her finder man både udlejningsbiler, og kontaktinformationer.</p>
+      <div class="link-container2"> 
+        <a href="https://xd.adobe.com/view/f3c67596-f348-46f3-b835-6465678d93ec-a695/" class="link-text">Live Demo <img src="./assets/assets/external-link.png" alt="eksternt-link" class="icons"> </a>
+       </div>
+    </div>
+  </article>
+  <article id="projekter3">
+    <div class="section__pic-container2">
+      <img src="assets/assets/aboutphoto3.png" alt="projekt 2" class="projekt-img3">
+    </div>
+    <div class="section__text">
+    <h2 class="project-title">Zenify - Terapilamper</h2>
+    <p class="section__text__p1">Zenify er en hjemmeside med terapilamper med rødt lys. På hjemmesiden har brugerne mulighed for at finde produktinformationer og kontaktoplysinger. </p>
+        <div class="link-container2"> 
+          <a href="https://xd.adobe.com/view/150db33d-4e2c-43f4-9b15-b01988a6bc77-405e/" class="link-text">Live Demo <img src="./assets/assets/external-link.png" alt="eksternt-link" class="icons"> </a>
+         </div>
+      </div>
+    </article>
+    <article id="projekter4">
+      <div class="section__pic-container2">
+        <img src="assets/assets/aboutphoto4.png" alt="projekt 2" class="projekt-img3">
+      </div>
+      <div class="section__text">
+      <h2 class="project-title">BarkBuddies - Dating App for hunde</h2>
+      <p class="section__text__p1">BarkBuddies er en App, der giver brugere mulighed for at finde en legekammarat gennem en swipe funktion. Her har brugerne også mulighed for at chatte, finde hundeparker samt ændre profilindstillinger.</p>
+          <div class="link-container2"> 
+            <a href="https://xd.adobe.com/view/21030d40-ca14-40a8-9bb2-d63cecc3d58e-7450/" class="link-text">Live Demo <img src="./assets/assets/external-link.png" alt="eksternt-link" class="icons"> </a>
+           </div>
+        </div>
+        </article>
+        <img src="./assets/assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#kontakt'">
+</section>
+<section id="kontakt">
+  <div class="contact-container">
+    <form>
+      <h5 class="title3">kontakt</h5>
+      <br>
+      <h3>Kontakt mig</h3>
+      <input type="text" id="navn" placeholder="Navn*" required>
+      <input type="email" id="email" placeholder="Email*" required>
+      <input type="text" id="phone" placeholder="Telefon">
+      <textarea name="besked" rows="4" placeholder="Skriv din besked her"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <img src="./assets/assets/arrow.png" alt="Arrow icon" class="icon arrow2" onclick="location.href='#profile'">
+</section>
+</main>
+  <script src="script.js"></script>  
+</body>
+</html>

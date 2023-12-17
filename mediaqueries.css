@@ -1,0 +1,53 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    #projekter, .section__text__p1, .section__text {
+        margin-top: 2rem;
+    }
+    #profile, .section__text {
+        display: block;
+        margin: 0 auto 2rem;
+    }
+    .arrow, .arrow2 {
+        display: none;
+    }
+    section {
+        height: fit-content;
+        width: fit-content;
+        margin: 0 5%;
+    }
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    #om-mig {
+        margin: 0 auto 2rem;
+        margin-top: 20rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #kontakt {
+        height: 40vh;
+    }
+    #profile {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    #kontakt {
+        margin: 0 auto 5%;
+    }
+}
